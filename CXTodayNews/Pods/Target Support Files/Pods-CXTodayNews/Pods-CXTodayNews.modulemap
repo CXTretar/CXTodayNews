@@ -1,0 +1,6 @@
+framework module Pods_CXTodayNews {
+  umbrella header "Pods-CXTodayNews-umbrella.h"
+
+  export *
+  module * { export * }
+}

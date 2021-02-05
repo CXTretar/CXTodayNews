@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3541526699FE9C5130A896BE /* Pods_CXTodayNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2807AA132115E578E4A74E7C /* Pods_CXTodayNews.framework */; };
 		CAE1781A25CD2582000F6053 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE1781925CD2582000F6053 /* AppDelegate.swift */; };
-		CAE1781C25CD2582000F6053 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE1781B25CD2582000F6053 /* SceneDelegate.swift */; };
-		CAE1781E25CD2582000F6053 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE1781D25CD2582000F6053 /* ViewController.swift */; };
 		CAE1782125CD2582000F6053 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE1781F25CD2582000F6053 /* Main.storyboard */; };
 		CAE1782325CD2583000F6053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE1782225CD2583000F6053 /* Assets.xcassets */; };
 		CAE1782625CD2583000F6053 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE1782425CD2583000F6053 /* LaunchScreen.storyboard */; };
+		CAE1789C25CD7E37000F6053 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE1787D25CD7E37000F6053 /* HomeViewController.swift */; };
+		CAE178A025CD7E37000F6053 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE1788D25CD7E37000F6053 /* MineViewController.swift */; };
+		CAE178A125CD7E37000F6053 /* CXTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE1789225CD7E37000F6053 /* CXTabBarController.swift */; };
+		CAE178A225CD7E37000F6053 /* CXNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE1789325CD7E37000F6053 /* CXNavigationController.swift */; };
+		CAE178A325CD7E37000F6053 /* CXTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE1789625CD7E37000F6053 /* CXTabbar.swift */; };
+		CAE178A425CD7E37000F6053 /* VolcanoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE1789925CD7E37000F6053 /* VolcanoViewController.swift */; };
+		CAE178AA25CD7EA1000F6053 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE178A825CD7EA1000F6053 /* Common.swift */; };
+		CAE178AB25CD7EA1000F6053 /* CXClassInfoTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE178A925CD7EA1000F6053 /* CXClassInfoTool.swift */; };
+		CAE178AE25CD7ED0000F6053 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE178AD25CD7ED0000F6053 /* VideoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2807AA132115E578E4A74E7C /* Pods_CXTodayNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CXTodayNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CD9E5AD04175F8C137C60A /* Pods-CXTodayNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXTodayNews.debug.xcconfig"; path = "Target Support Files/Pods-CXTodayNews/Pods-CXTodayNews.debug.xcconfig"; sourceTree = "<group>"; };
+		32177065DC8C18522AB2A8C4 /* Pods-CXTodayNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXTodayNews.release.xcconfig"; path = "Target Support Files/Pods-CXTodayNews/Pods-CXTodayNews.release.xcconfig"; sourceTree = "<group>"; };
 		CAE1781625CD2582000F6053 /* CXTodayNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CXTodayNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAE1781925CD2582000F6053 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CAE1781B25CD2582000F6053 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CAE1781D25CD2582000F6053 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CAE1782025CD2582000F6053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CAE1782225CD2583000F6053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAE1782525CD2583000F6053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAE1782725CD2583000F6053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAE1787D25CD7E37000F6053 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CAE1788D25CD7E37000F6053 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		CAE1789225CD7E37000F6053 /* CXTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CXTabBarController.swift; sourceTree = "<group>"; };
+		CAE1789325CD7E37000F6053 /* CXNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CXNavigationController.swift; sourceTree = "<group>"; };
+		CAE1789625CD7E37000F6053 /* CXTabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CXTabbar.swift; sourceTree = "<group>"; };
+		CAE1789925CD7E37000F6053 /* VolcanoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolcanoViewController.swift; sourceTree = "<group>"; };
+		CAE178A825CD7EA1000F6053 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		CAE178A925CD7EA1000F6053 /* CXClassInfoTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CXClassInfoTool.swift; sourceTree = "<group>"; };
+		CAE178AD25CD7ED0000F6053 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3541526699FE9C5130A896BE /* Pods_CXTodayNews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		493D173E5B70217B5F8549CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2807AA132115E578E4A74E7C /* Pods_CXTodayNews.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A153439AABED4B1D06FDE11D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28CD9E5AD04175F8C137C60A /* Pods-CXTodayNews.debug.xcconfig */,
+				32177065DC8C18522AB2A8C4 /* Pods-CXTodayNews.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CAE1780D25CD2582000F6053 = {
 			isa = PBXGroup;
 			children = (
 				CAE1781825CD2582000F6053 /* CXTodayNews */,
 				CAE1781725CD2582000F6053 /* Products */,
+				A153439AABED4B1D06FDE11D /* Pods */,
+				493D173E5B70217B5F8549CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +94,206 @@
 		CAE1781825CD2582000F6053 /* CXTodayNews */ = {
 			isa = PBXGroup;
 			children = (
-				CAE1781925CD2582000F6053 /* AppDelegate.swift */,
-				CAE1781B25CD2582000F6053 /* SceneDelegate.swift */,
-				CAE1781D25CD2582000F6053 /* ViewController.swift */,
+				CAE1787A25CD7E37000F6053 /* Classes */,
 				CAE1781F25CD2582000F6053 /* Main.storyboard */,
 				CAE1782225CD2583000F6053 /* Assets.xcassets */,
 				CAE1782425CD2583000F6053 /* LaunchScreen.storyboard */,
 				CAE1782725CD2583000F6053 /* Info.plist */,
 			);
 			path = CXTodayNews;
+			sourceTree = "<group>";
+		};
+		CAE1787A25CD7E37000F6053 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CAE1787B25CD7E37000F6053 /* Home */,
+				CAE1788025CD7E37000F6053 /* Video */,
+				CAE1788B25CD7E37000F6053 /* Mine */,
+				CAE1789025CD7E37000F6053 /* Main */,
+				CAE1789725CD7E37000F6053 /* Volcano */,
+				CAE1788525CD7E37000F6053 /* Others */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CAE1787B25CD7E37000F6053 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CAE1787C25CD7E37000F6053 /* Controller */,
+				CAE1787E25CD7E37000F6053 /* Model */,
+				CAE1787F25CD7E37000F6053 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CAE1787C25CD7E37000F6053 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CAE1787D25CD7E37000F6053 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CAE1787E25CD7E37000F6053 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CAE1787F25CD7E37000F6053 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CAE1788025CD7E37000F6053 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				CAE1788125CD7E37000F6053 /* Controller */,
+				CAE1788225CD7E37000F6053 /* Model */,
+				CAE1788325CD7E37000F6053 /* View */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		CAE1788125CD7E37000F6053 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CAE178AD25CD7ED0000F6053 /* VideoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CAE1788225CD7E37000F6053 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CAE1788325CD7E37000F6053 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CAE1788525CD7E37000F6053 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				CAE178A725CD7EA1000F6053 /* Tools */,
+				CAE1781925CD2582000F6053 /* AppDelegate.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		CAE1788B25CD7E37000F6053 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				CAE1788C25CD7E37000F6053 /* Controller */,
+				CAE1788E25CD7E37000F6053 /* Model */,
+				CAE1788F25CD7E37000F6053 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		CAE1788C25CD7E37000F6053 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CAE1788D25CD7E37000F6053 /* MineViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CAE1788E25CD7E37000F6053 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CAE1788F25CD7E37000F6053 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CAE1789025CD7E37000F6053 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CAE1789125CD7E37000F6053 /* Controller */,
+				CAE1789425CD7E37000F6053 /* Model */,
+				CAE1789525CD7E37000F6053 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CAE1789125CD7E37000F6053 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CAE1789225CD7E37000F6053 /* CXTabBarController.swift */,
+				CAE1789325CD7E37000F6053 /* CXNavigationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CAE1789425CD7E37000F6053 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CAE1789525CD7E37000F6053 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CAE1789625CD7E37000F6053 /* CXTabbar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CAE1789725CD7E37000F6053 /* Volcano */ = {
+			isa = PBXGroup;
+			children = (
+				CAE1789825CD7E37000F6053 /* Controller */,
+				CAE1789A25CD7E37000F6053 /* Model */,
+				CAE1789B25CD7E37000F6053 /* View */,
+			);
+			path = Volcano;
+			sourceTree = "<group>";
+		};
+		CAE1789825CD7E37000F6053 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CAE1789925CD7E37000F6053 /* VolcanoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CAE1789A25CD7E37000F6053 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CAE1789B25CD7E37000F6053 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CAE178A725CD7EA1000F6053 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CAE178A825CD7EA1000F6053 /* Common.swift */,
+				CAE178A925CD7EA1000F6053 /* CXClassInfoTool.swift */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +303,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAE1782A25CD2583000F6053 /* Build configuration list for PBXNativeTarget "CXTodayNews" */;
 			buildPhases = (
+				C03376D758D7580745CAFF9B /* [CP] Check Pods Manifest.lock */,
 				CAE1781225CD2582000F6053 /* Sources */,
 				CAE1781325CD2582000F6053 /* Frameworks */,
 				CAE1781425CD2582000F6053 /* Resources */,
@@ -132,14 +362,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C03376D758D7580745CAFF9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CXTodayNews-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CAE1781225CD2582000F6053 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAE1781E25CD2582000F6053 /* ViewController.swift in Sources */,
+				CAE178A325CD7E37000F6053 /* CXTabbar.swift in Sources */,
+				CAE178AB25CD7EA1000F6053 /* CXClassInfoTool.swift in Sources */,
+				CAE178A425CD7E37000F6053 /* VolcanoViewController.swift in Sources */,
+				CAE178A225CD7E37000F6053 /* CXNavigationController.swift in Sources */,
 				CAE1781A25CD2582000F6053 /* AppDelegate.swift in Sources */,
-				CAE1781C25CD2582000F6053 /* SceneDelegate.swift in Sources */,
+				CAE178AA25CD7EA1000F6053 /* Common.swift in Sources */,
+				CAE178A025CD7E37000F6053 /* MineViewController.swift in Sources */,
+				CAE178A125CD7E37000F6053 /* CXTabBarController.swift in Sources */,
+				CAE178AE25CD7ED0000F6053 /* VideoViewController.swift in Sources */,
+				CAE1789C25CD7E37000F6053 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,11 +545,13 @@
 		};
 		CAE1782B25CD2583000F6053 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28CD9E5AD04175F8C137C60A /* Pods-CXTodayNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CXTodayNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,11 +565,13 @@
 		};
 		CAE1782C25CD2583000F6053 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32177065DC8C18522AB2A8C4 /* Pods-CXTodayNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CXTodayNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
